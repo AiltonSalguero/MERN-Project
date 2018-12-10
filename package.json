@@ -1,0 +1,25 @@
+{
+  "name": "webpack-express",
+  "version": "1.0.0",
+  "description": "Proyecto web. Plantilla utilizando webpack y express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyssnar/webpack-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyssnar/webpack-express/issues"
+  },
+  "homepage": "https://github.com/Kyssnar/webpack-express#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
