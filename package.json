@@ -1,25 +1,38 @@
 {
-  "name": "webpack-express",
-  "version": "1.0.0",
-  "description": "Proyecto web. Plantilla utilizando webpack y express.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kyssnar/webpack-express.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kyssnar/webpack-express/issues"
-  },
-  "homepage": "https://github.com/Kyssnar/webpack-express#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
-  }
+    "name": "webpack-express",
+    "version": "1.0.0",
+    "description": "Proyecto web. Plantilla utilizando webpack y express.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "css-build": "node-sass src/css/main.scss dist/css/main.css",
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production",
+        "serv": "webpack-dev-server --mode production",
+        "start": "npm run serv"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kyssnar/webpack-express.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kyssnar/webpack-express/issues"
+    },
+    "homepage": "https://github.com/Kyssnar/webpack-express#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2"
+    }
 }
